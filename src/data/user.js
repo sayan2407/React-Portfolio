@@ -1,30 +1,27 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "React Portfolio By Sayan Pal",
+		name: "Sayan Pal",
+		email: "sayanp166@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/sayan2407",
+		linkedin: "https://www.linkedin.com/in/sayan-pal-817794183/"
+	
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Versatile Full-Stack Developer and Aspiring Backend Expert",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"As a frontend developer with a keen interest in backend development, I'm on a continuous learning journey to become a proficient full-stack developer. Currently, my expertise lies in frontend technologies, where I craft engaging user interfaces and seamless experiences for web and mobile applications. I'm diving into the backend realm with a focus on Node.js, aiming to build scalable, secure, and reliable applications. Passionate about solving complex problems and adhering to industry best practices, I thrive on challenges that push me to expand my skill set and deliver high-quality code. Ready to embark on new projects and opportunities that allow me to grow and innovate in the ever-evolving landscape of web development.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Sayan pal, I live in Kolkata, India. ",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Welcome to the digital domain of Sayan Pal, a skilled programmer based in the bustling city of Kolkata, India. Dive into a showcase of Sayan's expertise, where lines of code transform into innovative solutions and intricate algorithms pave the way for technological advancement. Explore Sayan's projects, ranging from elegant web applications to robust software systems, each crafted with precision and fueled by a passion for programming. With a commitment to excellence and a drive for continuous learning, Sayan's portfolio is a testament to his dedication to mastering the art of coding. Join his on this journey through the realms of software development, where creativity meets functionality and possibilities are limitless.",
 	},
 
 	articles: {
@@ -35,50 +32,102 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Face Detection App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Utilized React to develop a dynamic application that detects faces in uploaded videos.Implemented Face API and fabric.js to achieve accurate face detection with visual indicators.",
+			logo: "faReact",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/sayan2407/View-GitHub-Repository",
+			tech: 'react'
 		},
 
 		{
-			title: "Project 2",
+			title: "Admin UI",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Developed a comprehensive dashboard for employee data management as part of the GeekTrust challenge.Achieved an impressive 87% score by efficiently fetching and visualizing employee information from a provided API",
+			logo: "faReact",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/sayan2407/Admin-UI",
+			tech: 'react'
+
 		},
 
 		{
-			title: "Project 3",
+			title: "Post Listing WordPress Plugin",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Crafted a versatile WordPress plugin allowing users to filter content by taxonomies and customize frontend layouts.Seamlessly integrates with WordPress websites to enhance content organization and presentation.",
+			logo: "faWordpressSimple",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/sayan2407/posts-listing-wordpress-plugin",
+			tech: 'wordpress'
+
+		},
+		{
+			title: "Like Posts",
+			description:
+				"Developed a WordPress plugin enabling users to interactively like site posts, enhancing user engagement.Streamlined integration with WordPress platforms to provide a seamless liking experience.",
+			logo: "faWordpressSimple",
+			linkText: "View Project",
+			link: "https://github.com/sayan2407/Like-System-On-Posts-/tree/master",
+			tech: 'wordpress'
+
 		},
 
 		{
-			title: "Project 4",
+			title: "Q-kart ~ A Ecoomerce Website",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Engineered a basic ecommerce platform using React, empowering users to browse and shop effortlessly.Seamlessly integrates essential ecommerce functionalities for a smooth user experience.",
+			logo: "faReact",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
+			link: "https://genuine-fenglisu-9ad1c1.netlify.app/",
+			tech: 'react'
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
 		},
 	],
+	works : [
+		{
+			companyName : "WisdmLabs",
+			companyUrl : "https://wisdmlabs.com/",
+			companyLogo : "./wisdmlabs.jpeg",
+			designation : "Software Engineer",
+			start: "2021",
+			end : "present"
+		}
+	],
+	skills : [
+		{
+			title: 'HTML',
+			expertise: 80
+		},
+		{
+			title: 'CSS',
+			expertise: 80
+		},
+		{
+			title: 'JavaScript',
+			expertise: 80
+		},
+		{
+			title: 'React',
+			expertise: 75
+		},
+		{
+			title: 'WordPress',
+			expertise: 80
+		},
+		{
+			title: 'NodeJs',
+			expertise: 40
+		},
+		{
+			title: 'SQL',
+			expertise: 65
+		},
+		{
+			title: 'MongoDb',
+			expertise: 40
+		}
+	]
 };
 
 export default INFO;
